@@ -12,7 +12,7 @@ public class Consumer {
 
     public static void main(String[] args) throws InterruptedException, MQClientException {
 
-        //声明并初始化一个consumer
+        //声明并初始化一个              consumer
         //需要一个consumer group名字作为构造方法的参数，这里为consumer1
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("consumer1");
         //consumer.setVipChannelEnabled(false);
